@@ -1,0 +1,31 @@
+{
+  "header-aboutme": {
+    "es": "Acerca de",
+    "en": "About"
+  },
+  "header-experience": {
+    "es": "Experiencia",
+    "en": "Experience"
+  },
+  "header-projects": {
+    "es": "Proyectos",
+    "en": "Projects"
+  },
+  "header-contact": {
+    "es": "Contacto",
+    "en": "Contact"
+  },
+  "carrera-title": {
+    "es": "Desarrollador Full Stack",
+    "en": "Full Stack Developer"
+  },
+  "aboutme-title": {
+    "es": "Acerca de Mí",
+    "en": "About me"
+  },
+  "aboutme-description": {
+    "es": "Apasionado por construir aplicaciones web responsivas y centradas en el usuario utilizando HTML5, CSS, JavaScript y frameworks y bibliotecas modernos como React y Node.js. Mi objetivo es crear experiencias digitales atractivas y funcionales que resuelvan problemas del mundo real y aporten valor a los usuarios.",
+    "en": "Passionate about building responsive and user-centered web applications using HTML5, CSS, JavaScript, and modern frameworks and libraries like React and Node.js. My goal is to create engaging and functional digital experiences that solve real-world problems and bring value to users."
+  }
+
+}
