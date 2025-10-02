@@ -1,4 +1,6 @@
 {
+  "name": "Uriel Gomez Becerril",
+  "mail": "urielgomezbecerril@gmail.com",
   "header-aboutme": {
     "es": "Acerca de",
     "en": "About"
@@ -19,6 +21,10 @@
     "es": "Desarrollador Full Stack",
     "en": "Full Stack Developer"
   },
+  "button-projects": {
+    "es": "Ver mi trabajo",
+    "en": "See my work"
+  },
   "aboutme-title": {
     "es": "Acerca de Mí",
     "en": "About me"
@@ -26,6 +32,147 @@
   "aboutme-description": {
     "es": "Apasionado por construir aplicaciones web responsivas y centradas en el usuario utilizando HTML5, CSS, JavaScript y frameworks y bibliotecas modernos como React y Node.js. Mi objetivo es crear experiencias digitales atractivas y funcionales que resuelvan problemas del mundo real y aporten valor a los usuarios.",
     "en": "Passionate about building responsive and user-centered web applications using HTML5, CSS, JavaScript, and modern frameworks and libraries like React and Node.js. My goal is to create engaging and functional digital experiences that solve real-world problems and bring value to users."
+  },
+  "experience-title": {
+    "es": "Experiencia",
+    "en": "Experience"
+  },
+  "experience-1": {
+    "es": {
+      "duration": "Junio 2025 - Actualmente",
+      "role": "Técnico de TI",
+      "company": "LG Innotek",
+      "dates": [
+        "Soporte técnico a usuarios.",
+        "Monitoreo de servicios de TI.",
+        "Registro y seguimiento de incidencias."
+      ]
+    },
+    "en": {
+      "duration": "June 2025 - Present",
+      "role": "IT Technician",
+      "company": "LG Innotek",
+      "dates": [
+        "Technical support to users.",
+        "Monitoring of IT services.",
+        "Logging and tracking of incidents."
+      ]
+    }
+  },
+  "experience-2": {
+    "es": {
+      "duration": "Junio 2024 - Junio 2025",
+      "role": "Desarrollador Full Stack",
+      "company": "Mitsubishi Electric de México",
+      "dates": [
+        "Desarrollo web con React.",
+        "APIs y backend con Node.js.",
+        "Diseño y gestión de bases de datos."
+      ]
+    },
+    "en": {
+      "duration": "June 2024 - June 2025",
+      "role": "Full Stack Developer",
+      "company": "Mitsubishi Electric de México",
+      "dates": [
+        "Web development with React.",
+        "APIs and backend with Node.js.",
+        "Database design and management."
+      ]
+    }
+  },
+  "education-title": {
+    "es": "Educación",
+    "en": "Education"
+  },
+  "education-1": {
+    "es": {
+      "duration": "Agosto 2021 - Diciembre 2024",
+      "degree": "Ingeniería en Desarrollo y Gestión de Software",
+      "institution": "Universidad Tecnológica San Juan del Río"
+    },
+    "en": {
+      "duration": "August 2021 - December 2024",
+      "degree": "Engineering in Software Development and Management",
+      "institution": "Universidad Tecnológica San Juan del Río"
+    }
+  },
+  "projects-title": {
+    "es": "Proyectos",
+    "en": "Projects"
+  },
+  "projects": [
+    {
+      "image": "https://via.placeholder.com/300",
+      "title": {
+        "es": "Portafolio Personal",
+        "en": "Personal Portfolio"
+      },
+      "description": {
+        "es": "Sitio web personal para mostrar mi trabajo y habilidades como desarrollador web.",
+        "en": "Personal website to showcase my work and skills as a web developer."
+      },
+      "technologies": ["React", "CSS", "JavaScript"],
+      "button": {
+        "es": "Ver Proyecto",
+        "en": "View Project"
+      },
+      "link": "https://github.com/yourusername/your-repo"
+  },{
+      "image": "https://via.placeholder.com/300",
+      "title": {
+        "es": "Portafolio Personal",
+        "en": "Personal Portfolio"
+      },
+      "description": {
+        "es": "Sitio web personal para mostrar mi trabajo y habilidades como desarrollador web.",
+        "en": "Personal website to showcase my work and skills as a web developer."
+      },
+      "technologies": ["React", "CSS", "JavaScript"],
+      "button": {
+        "es": "Ver Proyecto",
+        "en": "View Project"
+      },
+      "link": "https://github.com/yourusername/your-repo"
+  },
+  {
+      "image": "https://via.placeholder.com/300",
+      "title": {
+        "es": "Portafolio Personal",
+        "en": "Personal Portfolio"
+      },
+      "description": {
+        "es": "Sitio web personal para mostrar mi trabajo y habilidades como desarrollador web.",
+        "en": "Personal website to showcase my work and skills as a web developer."
+      },
+      "technologies": ["React", "CSS", "JavaScript"],
+      "button": {
+        "es": "Ver Proyecto",
+        "en": "View Project"
+      },
+      "link": "https://github.com/yourusername/your-repo"
+  },
+  {
+      "image": "https://via.placeholder.com/300",
+      "title": {
+        "es": "Portafolio Personal",
+        "en": "Personal Portfolio"
+      },
+      "description": {
+        "es": "Sitio web personal para mostrar mi trabajo y habilidades como desarrollador web.",
+        "en": "Personal website to showcase my work and skills as a web developer."
+      },
+      "technologies": ["React", "CSS", "JavaScript"],
+      "button": {
+        "es": "Ver Proyecto",
+        "en": "View Project"
+      },
+      "link": "https://github.com/yourusername/your-repo"
+  }
+  ],
+  "footer-copyright": {
+    "es": "Uriel Gomez Becerril. Todos los derechos reservados.",
+    "en": "Uriel Gomez Becerril. All rights reserved."
   }
 
 }

@@ -1,21 +1,19 @@
 import React from "react";
 
 
-    const Timeline = (Start, End = "Actualmente" , Title, Place, Dates) => {
-        
+ const Timeline = ({ Duration, Title, Place, Dates = [] }) => {
         return (
-            <div className="timeline">
-                <small>{Start} - {End}</small>
+            <div>
+                <small>{Duration}</small>
                 <h2>{Title}</h2>
                 <p>{Place}</p>
-                {Dates.length > 0 && 
+                {Array.isArray(Dates) && Dates.length > 0 && (
                 <ul>
                     {Dates.map((date, index) => (
-                        <li key={index}>{date}</li>
+                    <li key={index}>{date}</li>
                     ))}
                 </ul>
-                }
-
+                )}
             </div>
         )
     }

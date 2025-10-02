@@ -1,11 +1,13 @@
 import React from "react";
+import { useLenguaje } from "../../hooks/useLenguaje";
+
 
 const AboutMe = () => {
+  const {lenguajeData,lenguaje} = useLenguaje();
   return (
     <section>
-      <h2>Acerca de mí</h2>
-      <p>Apasionado por construir aplicaciones web responsivas y centradas en el usuario utilizando HTML5, CSS, JavaScript y frameworks y bibliotecas modernos como React y Node.js. Mi objetivo es crear experiencias digitales atractivas y funcionales que resuelvan problemas del mundo real y aporten valor a los usuarios.
-      </p>
+      <h2>{lenguajeData["aboutme-title"][lenguaje]}</h2>
+      <p>{lenguajeData["aboutme-description"][lenguaje]}</p>
     </section>
   );
 };

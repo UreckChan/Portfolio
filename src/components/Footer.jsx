@@ -1,12 +1,13 @@
-import React from "react";
-
+import React, { use } from "react";
+import { useLenguaje } from "../hooks/useLenguaje";
 
 const Footer = () => {
+const year = new Date().getFullYear();
+const {lenguajeData,lenguaje} = useLenguaje();
   return (
     <footer>
-      <p>ponte en contacto:</p>
       <a href="mailto:urielgomezbecerril@gmail.com">urielgomezbecerril@gmail.com</a>
-      <small> &copy; {new Date().getFullYear()} Uriel Gomez Becerril. Todos los derechos reservados.</small>
+      <small> &copy; {year} {lenguajeData["footer-copyright"][lenguaje]}</small>
     </footer>
 )
 }

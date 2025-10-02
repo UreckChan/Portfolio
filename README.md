@@ -99,12 +99,3 @@ You can toggle between modes and your preference is saved automatically.
 ---
 
 ## ✨ ¡Gracias por visitar! / Thanks for stopping by!
-
-
-
-
-The portfolio supports **dark/light mode** to provide the best experience based on your preference.
-
----
-
-## ✨ Gracias por visitar / Thanks for stopping by!
