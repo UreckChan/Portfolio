@@ -3,7 +3,7 @@ import React from "react";
 
  const Timeline = ({ Duration, Title, Place, Dates = [] }) => {
         return (
-            <div>
+            <div className="timeline-item">
                 <small>{Duration}</small>
                 <h2>{Title}</h2>
                 <p>{Place}</p>

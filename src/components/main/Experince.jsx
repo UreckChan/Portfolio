@@ -7,6 +7,7 @@ const Experince = () => {
     return (
         <section id="experience" className="settings-section">
             <h2 className="title-section">{lenguajeData["experience-title"][lenguaje]}</h2>
+            <div className="timeline">
             <Timeline 
                 Duration={lenguajeData["experience-1"][lenguaje].duration}
                 Title={lenguajeData["experience-1"][lenguaje].role}
@@ -18,7 +19,8 @@ const Experince = () => {
                 Title={lenguajeData["experience-2"][lenguaje].role}
                 Place={lenguajeData["experience-2"][lenguaje].company}
                 Dates={lenguajeData["experience-2"][lenguaje].dates}
-            />  
+            />
+            </div>
         </section>
     );
 }

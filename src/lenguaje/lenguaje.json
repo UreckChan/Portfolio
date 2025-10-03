@@ -22,20 +22,20 @@
     "en": "FullStack Developer"
   },
   "button-projects": {
-    "es": "Ver mi trabajo",
-    "en": "See my work"
+    "es": "Ver Mi Trabajo",
+    "en": "See My Work"
   },
   "aboutme-title": {
     "es": "Acerca de Mí",
     "en": "About me"
   },
   "aboutme-description": {
-    "es": "Apasionado por construir aplicaciones web responsivas y centradas en el usuario utilizando HTML5, CSS, JavaScript y frameworks y bibliotecas modernos como React y Node.js. Mi objetivo es crear experiencias digitales atractivas y funcionales que resuelvan problemas del mundo real y aporten valor a los usuarios.",
-    "en": "Passionate about building responsive and user-centered web applications using HTML5, CSS, JavaScript, and modern frameworks and libraries like React and Node.js. My goal is to create engaging and functional digital experiences that solve real-world problems and bring value to users."
+    "es": "Apasionado por construir aplicaciones web responsivas y centradas en el usuario utilizando HTML5, CSS, JavaScript y frameworks y librerías modernos. Mi objetivo es contribuir a soluciones de software innovadoras, mejorar las experiencias de usuario e impulsar la eficiencia operativa en diversos proyectos tecnológicos. Siempre estoy ansioso por aprender y crecer en entornos de desarrollo dinámicos.",
+    "en": "Passionate about building responsive, user-centric web applications using HTML5, CSS, JavaScript, and modern frameworks and libraries. My goal is to contribute to innovative software solutions, enhance user experiences, and drive operational efficiency across various tech projects. I am always eager to learn and grow in dynamic development environments."
   },
   "experience-title": {
-    "es": "Experiencia",
-    "en": "Experience"
+    "es": "Experiencia Laboral",
+    "en": "Work Experience"
   },
   "experience-1": {
     "es": {

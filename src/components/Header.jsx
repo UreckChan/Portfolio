@@ -22,7 +22,7 @@ const Header = () => {
             fillRule="evenodd"
           />
         </svg>
-        <h2>{lenguajeData.name}</h2>
+        <h2 className="header-name">{lenguajeData.name}</h2>
       </div>
 
       {/* Botón hamburguesa visible solo en pantallas pequeñas */}
