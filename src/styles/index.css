@@ -81,7 +81,6 @@ section {
 
 .settings-section{
   max-width: 800px;
-  min-width: 70vh;
   margin: auto;
   
 }
@@ -299,6 +298,10 @@ max-width: 56rem;
   font-size: 1.5rem; /* text-sm */
   color: var(--color-text);
   font-weight: 700;
+  margin: 0;
+}
+.timeline-item p {
+  margin: 0;
 }
 
 /* En pantallas chicas */
