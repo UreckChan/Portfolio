@@ -5,8 +5,8 @@ import Timeline from "./components/Timeline";
 const Experince = () => {
     const {lenguajeData,lenguaje} = useLenguaje();
     return (
-        <section>
-            <h2>{lenguajeData["experience-title"][lenguaje]}</h2>
+        <section id="experience" className="settings-section">
+            <h2 className="title-section">{lenguajeData["experience-title"][lenguaje]}</h2>
             <Timeline 
                 Duration={lenguajeData["experience-1"][lenguaje].duration}
                 Title={lenguajeData["experience-1"][lenguaje].role}

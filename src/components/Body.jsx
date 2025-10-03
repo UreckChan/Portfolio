@@ -8,7 +8,7 @@ import Projects from "./main/Projects.jsx";
 
 const Body = () => {
   return (
-    <main>
+    <main className="body-page">
       <Me />
       <AboutMe />
       <Experince/>

@@ -3,13 +3,20 @@
 :root {
   --color-primary: #137fec;
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+html {
+  scroll-behavior: smooth;
 
 }
+
 .light {
   --color-background: #FFFFFF;
   --color-text: #111827;
   --color-card: #F9FAFB;
   --color-border: #E5E7EB;
+  --color-description: #475569;
 }
 
 .dark {
@@ -17,16 +24,35 @@
   --color-text: #F9FAFB;
   --color-card: #161B22;
   --color-border: #30363D;
+  --color-description: #cbd5e1;
 }
+
+
+
 body {
+  min-height: 100vh;
   background-color: var(--color-background);
   color: var(--color-text);
   margin: 0;
   padding: 0;
-  transition: background-color 0.5s, color 0.3s;
+  transition: background-color 0.5s, color 0.3s, ease-in-out 0.3s;
+  transition:  0.3s, color 0.3s, ease-in-out 0.3s; 
 
   
 }
+
+.body-page {
+  margin: 1rem 8rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
 
 header{
   padding: 1rem;
@@ -37,15 +63,76 @@ header{
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid var(--color-border);
-  transition: background-color 0.5s, color 0.3s;
   z-index: 10;
   height: 2rem;
+}
+
+section {
+  scroll-margin-top: 80px; /* ajusta según la altura de tu header */
+}
+
+.me-title {
+  font-size: 3.2rem;          /* parecido a text-5xl */
+  font-weight: 900;         /* font-black */
+  letter-spacing: -0.05em;  /* tracking-tighter */
+  margin:  0;
+  line-height: 1.1;         /* para que quede más compacto */
+}
+
+p {
+  font-size: 1.125rem;        /* text-lg */
+  line-height: 1.75rem;       /* leading-relaxed */
+  font-weight: 300;           /* opcional si quieres más "ligero" */
+  color: var(--color-description); /* = text-slate-600 */
+  text-align: center;
+}
+
+.settings-section {
+  margin-bottom: 5rem;        /* mb-20 */
+  scroll-margin-top: 5rem;    /* scroll-mt-20 */
+  text-align: center;
+}
+
+.title-section {
+  margin-bottom: 2rem;        /* mb-8 */
+  font-size: 2.25rem;         /* text-4xl */
+  font-weight: 700;           /* font-bold */
+  color: var(--color-text);   /* claro/oscuro controlado por variables */
+}
+
+
+
+.me-section{
+  margin: 7rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-projects{
+  background-color: var(--color-primary);
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  
+}
+.button-projects:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
 }
 
 .logo {
   display: flex;
   align-items: center;
   gap: 1rem;
+  padding-left: 2rem;
 }
 .logo h2{
   font-size: 1.25rem;
@@ -70,7 +157,7 @@ header{
   text-decoration: none;
   color: var(--color-text);
   font-weight: 500;
-  transition: color 0.3s;
+ 
 }
 .navigation a:hover {
   color: var(--color-primary);
@@ -100,7 +187,7 @@ header{
   box-shadow: var(--color-background) 0px 0px 0.5px;
   cursor: pointer;
   color: var(--color-text);
-  transition: transform 0.3s, color 0.3s;
+ 
 }
 
 .theme-toggle:hover {
@@ -108,6 +195,42 @@ header{
   color: var(--color-primary);
   background-color: var(--color-border);
 }
+
+
+.lang-toggle {
+  display: flex;
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  box-shadow: var(--color-background) 0px 0px 0.5px;
+  
+}
+
+.lang-toggle button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.4rem;
+ 
+  color: var(--color-text);
+  
+
+}
+
+.lang-toggle button.active {
+  background: var(--color-border);
+  color: var(--color-primary);
+  
+}
+
+.lang-toggle button:hover {
+  transform: scale(1.1);
+  background-color: var(--color-card);
+}
+
+
 
 
 
@@ -151,8 +274,15 @@ header{
 
   .settings {
     display: flex;
+    flex-direction: column;
     gap: 0.5rem;
     align-items: center;
+  }
+.lang-toggle{
+    order: 1;
+  }
+  .theme-toggle{
+    order: 2;
   }
 }
 
