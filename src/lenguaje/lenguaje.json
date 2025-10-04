@@ -102,41 +102,8 @@
     "en": "Projects"
   },
   "projects": [
-    {
-      "image": "https://via.placeholder.com/300",
-      "title": {
-        "es": "Portafolio Personal",
-        "en": "Personal Portfolio"
-      },
-      "description": {
-        "es": "Sitio web personal para mostrar mi trabajo y habilidades como desarrollador web.",
-        "en": "Personal website to showcase my work and skills as a web developer."
-      },
-      "technologies": ["React", "CSS", "JavaScript"],
-      "button": {
-        "es": "Ver Proyecto",
-        "en": "View Project"
-      },
-      "link": "https://github.com/yourusername/your-repo"
-  },{
-      "image": "https://via.placeholder.com/300",
-      "title": {
-        "es": "Portafolio Personal",
-        "en": "Personal Portfolio"
-      },
-      "description": {
-        "es": "Sitio web personal para mostrar mi trabajo y habilidades como desarrollador web.",
-        "en": "Personal website to showcase my work and skills as a web developer."
-      },
-      "technologies": ["React", "CSS", "JavaScript"],
-      "button": {
-        "es": "Ver Proyecto",
-        "en": "View Project"
-      },
-      "link": "https://github.com/yourusername/your-repo"
-  },
   {
-      "image": "https://via.placeholder.com/300",
+      "image":  "portfolio.png",
       "title": {
         "es": "Portafolio Personal",
         "en": "Personal Portfolio"
@@ -145,15 +112,26 @@
         "es": "Sitio web personal para mostrar mi trabajo y habilidades como desarrollador web.",
         "en": "Personal website to showcase my work and skills as a web developer."
       },
-      "technologies": ["React", "CSS", "JavaScript"],
-      "button": {
+      "technologies": [
+      {"name": "React", "img":"react.svg" , "color": "#61DAFB"}, 
+      {"name": "JavaScript", "img":"javascript.svg" , "color": "#F7DF1E"},
+      {"name": "CSS", "img":"css.svg" , "color": "#264DE4"}
+      
+    ],
+      "button1": {
         "es": "Ver Proyecto",
         "en": "View Project"
       },
-      "link": "https://github.com/yourusername/your-repo"
-  },
+      "button2": {
+        "es": "Ver Código",
+        "en": "View Code"
+      },
+      "link": "https://ureckchan.github.io/Portfolio",
+      "link2": "https://github.com/UreckChan/Portfolio"
+    },
+
   {
-      "image": "https://via.placeholder.com/300",
+      "image":  "portfolio.png",
       "title": {
         "es": "Portafolio Personal",
         "en": "Personal Portfolio"
@@ -162,14 +140,29 @@
         "es": "Sitio web personal para mostrar mi trabajo y habilidades como desarrollador web.",
         "en": "Personal website to showcase my work and skills as a web developer."
       },
-      "technologies": ["React", "CSS", "JavaScript"],
-      "button": {
+      "technologies": [
+      {"name": "React", "img":"react.svg" , "color": "#61DAFB"}, 
+      {"name": "JavaScript", "img":"javascript.svg" , "color": "#F7DF1E"},
+      {"name": "CSS", "img":"css.svg" , "color": "#264DE4"}
+      
+    ],
+      "button1": {
         "es": "Ver Proyecto",
         "en": "View Project"
       },
-      "link": "https://github.com/yourusername/your-repo"
-  }
+      "button2": {
+        "es": "Ver Código",
+        "en": "View Code"
+      },
+      "link": "https://ureckchan.github.io/Portfolio",
+      "link2": "https://github.com/UreckChan/Portfolio"
+    }
   ],
+  "footer-title": {
+    "es": "Ponte en contacto:",
+    "en": "Get in touch:"
+  },
+
   "footer-copyright": {
     "es": "Uriel Gomez Becerril. Todos los derechos reservados.",
     "en": "Uriel Gomez Becerril. All rights reserved."

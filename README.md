@@ -73,8 +73,7 @@ Always eager to learn, improve processes, and take on challenging projects.
 
 🔗 Explora mi portafolio hecho con React:  
 🔗 Explore my React-built portfolio:  
-👉 [**https://tusitio.com**](https://tusitio.com) _(Reemplaza con tu URL real / Replace with your actual site)_
-
+👉 [**https://ureckchan.github.io/Portfolio**](https://ureckchan.github.io/Portfolio)
 ---
 
 ## 📱 Redes Sociales / Social Media

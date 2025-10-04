@@ -11,8 +11,10 @@ const Body = () => {
     <main className="body-page">
       <Me />
       <AboutMe />
+      <div className="timelines-container">
       <Experince/>
       <Education/>
+      </div>
       <Projects/>
     </main>
   );

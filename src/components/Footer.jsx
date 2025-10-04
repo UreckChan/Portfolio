@@ -6,9 +6,10 @@ const year = new Date().getFullYear();
 const {lenguajeData,lenguaje} = useLenguaje();
   return (
     <footer>
-      <a href="mailto:urielgomezbecerril@gmail.com">urielgomezbecerril@gmail.com</a>
+      <p>{lenguajeData["footer-title"][lenguaje]}</p>
+      <a href={`mailto:${lenguajeData["mail"]}`}><strong>{lenguajeData["mail"]}</strong></a>
       <small> &copy; {year} {lenguajeData["footer-copyright"][lenguaje]}</small>
     </footer>
-)
+  );
 }
 export default Footer;
