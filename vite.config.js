@@ -4,8 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(),
-  ],
+  plugins: [react(), tailwindcss()],
+  base: 'https://ureckchan.github.io/Portfolio', // Configura la base para despliegue en subdirectorio
+  publicDir: 'public'
 })

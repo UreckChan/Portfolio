@@ -5,6 +5,8 @@ const Project = ({image, title, description, technologies, button1, button2, lin
     const { lenguaje } = useLenguaje();
     const [imgError, setImgError] = useState(false);
 
+
+
     return (
         <div className="project-card">
             <div className="project-image">
@@ -29,12 +31,13 @@ const Project = ({image, title, description, technologies, button1, button2, lin
                 <h3>{title[lenguaje]}</h3>
                 <ul className="project-tech">
                 {Array.isArray(technologies) && technologies.map((tech, index) => (
-                    <li className="technology-badges" key={index} style={{ color: tech.color}}>
-                    <svg className="technology-badge" style={{  fill: tech.color }}>
-                        <use xlinkHref={`/assets/${tech.img}`} />
+                <li className="technology-badges" key={index} style={{ color: tech.color }}>
+                    <svg className="technology-badge" style={{ fill: tech.color }}>
+                    <use xlinkHref={`/assets/${tech.img}`} />
                     </svg>
-                    </li>
+                </li>
                 ))}
+
                 </ul>
                 </div>
                 <p>{description[lenguaje]}</p>
