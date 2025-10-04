@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useLenguaje } from "../../../hooks/useLenguaje";
 
+
 const Project = ({image, title, description, technologies, button1, button2, link, link2}) => {
     const { lenguaje } = useLenguaje();
     const [imgError, setImgError] = useState(false);
@@ -33,7 +34,7 @@ const Project = ({image, title, description, technologies, button1, button2, lin
                 {Array.isArray(technologies) && technologies.map((tech, index) => (
                 <li className="technology-badges" key={index} style={{ color: tech.color }}>
                     <svg className="technology-badge" style={{ fill: tech.color }}>
-                    <use xlinkHref={`/assets/${tech.img}`} />
+                        <use xlinkHref={`/assets/${tech.img}` || `../../../assets/${tech.img}`} />
                     </svg>
                 </li>
                 ))}
