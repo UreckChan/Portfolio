@@ -289,6 +289,7 @@ max-width: 56rem;
 
 .timeline {
   padding-left: 2.5rem;
+  padding-right: 2.5rem;
   border-left-width: 2px;
   border-left-style: solid;
   border-left-color: var(--color-primary);
@@ -337,6 +338,7 @@ max-width: 56rem;
   margin: 4rem 2rem;
   justify-content: center; /* centra el grid si hay pocas tarjetas */
   grid-auto-flow: dense;   /* rellena huecos automáticamente */
+  
 }
 
 
@@ -405,7 +407,6 @@ max-width: 56rem;
   list-style: none;
   margin: 0;
   padding: 0;
-
   max-height:3rem;       /* altura de 1 línea de iconos + un poco de margen */
   overflow: hidden;          /* recorta cualquier fila adicional */
 }
@@ -415,7 +416,6 @@ max-width: 56rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-
   gap: 0.5rem;
 }
 
@@ -434,7 +434,7 @@ max-width: 56rem;
   gap: 1rem;
   margin-top: 1rem;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center; /* Esto centra los botones horizontalmente */
 }
 
