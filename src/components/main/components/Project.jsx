@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useLenguaje } from "../../../hooks/useLenguaje";
 
 
@@ -7,14 +7,13 @@ const Project = ({image, title, description, technologies, button1, button2, lin
     const [imgError, setImgError] = useState(false);
 
 
-
     return (
         <div className="project-card">
             <div className="project-image">
       {!imgError ? (
         <img
           className="project-img"
-          src={image}
+          src={`/Portfolio/assets/${image}` || `/assets/${image}`}
           alt={title[lenguaje]}
           onError={() => setImgError(true)}
         />
