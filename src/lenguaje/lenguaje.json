@@ -102,22 +102,21 @@
     "en": "Projects"
   },
   "projects": [
-  {
-      "image":  "BannerProject1.png",
+    {
+      "image": "TheSimpsonsBanner.png",
       "title": {
-        "es": "Portafolio Personal",
-        "en": "Personal Portfolio"
+        "es": "The Simpsons Universe",
+        "en": "The Simpsons Universe"
       },
       "description": {
-        "es": "Sitio web personal para mostrar mi trabajo y habilidades como desarrollador web.",
-        "en": "Personal website to showcase my work and skills as a web developer."
+        "es": "Aplicación web desarrollada con React que consume la API pública con axios de The Simpsons.",
+        "en": "Web application developed with React that consumes the public API with axios of The Simpsons."
       },
       "technologies": [
-      {"name": "React", "img":"react.svg" , "color": "#61DAFB"}, 
-      {"name": "JavaScript", "img":"javascript.svg" , "color": "#F7DF1E"},
-      {"name": "CSS", "img":"css.svg" , "color": "#264DE4"}
-      
-    ],
+        { "name": "React", "img": "react.svg", "color": "#61DAFB" },
+        { "name": "JavaScript", "img": "javascript.svg", "color": "#F7DF1E" },
+        { "name": "Tailwind CSS", "img": "tailwindcss.svg", "color": "#38BDF8" }
+      ],
       "button1": {
         "es": "Ver Proyecto",
         "en": "View Project"
@@ -126,9 +125,11 @@
         "es": "Ver Código",
         "en": "View Code"
       },
-      "link": "https://ureckchan.github.io/Portfolio",
-      "link2": "https://github.com/UreckChan/Portfolio"
+      "link": "https://ureckchan.github.io/TheSimpsonsUniverse",
+      "link2": "https://github.com/UreckChan/TheSimpsonsUniverse"
     },
+
+
 
   {
       "image":  "BannerProject1.png",

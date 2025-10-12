@@ -387,15 +387,16 @@ max-width: 56rem;
   display: flex;            /* Flex para alinear título y lista en línea */
   justify-content: space-between; /* Título a la izquierda, lista a la derecha */
   align-items: center;      /* Centrado vertical */
-  flex-wrap: nowrap;        /* Evita que se rompa la línea */
+  flex-wrap: wrap;        /* Evita que se rompa la línea */
 }
 
 .project-header h3 {
   margin: 0;
   flex-shrink: 0; /* Evita que el título se encoja */
-  white-space: nowrap; /* El título no se rompe en varias líneas */
+  white-space: wrap; /* El título no se rompe en varias líneas */
   overflow: hidden;    /* Corta el texto que se salga */
   text-overflow: ellipsis; /* Opcional: agrega "..." si no cabe */
+  min-width: 70%;
 }
 
 .project-tech {
@@ -405,6 +406,7 @@ max-width: 56rem;
   justify-content: center;   /* centrado horizontal */
   gap: 0.5rem;
   list-style: none;
+  min-width: 30%;
   margin: 0;
   padding: 0;
   max-height:3rem;       /* altura de 1 línea de iconos + un poco de margen */
