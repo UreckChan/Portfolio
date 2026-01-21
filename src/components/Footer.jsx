@@ -10,10 +10,10 @@ const {lenguajeData,lenguaje} = useLenguaje();
 
       <a href={`mailto:${lenguajeData["mail"]}`}><strong>{lenguajeData["mail"]}</strong></a>
 
-  <div class="social-icons">
-    <a href="https://github.com/UreckChan/" target="_blank" class="icon github"></a>
-    <a href="https://www.linkedin.com/in/uriel-gomez-becerril" target="_blank" class="icon linkedin"></a>
-    <a href="https://ureckchan.github.io/Portfolio/" target="_blank" class="icon portfolio"></a>
+  <div className="social-icons">
+    <a href="https://github.com/UreckChan/" target="_blank" className="icon github"></a>
+    <a href="https://www.linkedin.com/in/uriel-gomez-becerril" target="_blank" className="icon linkedin"></a>
+    <a href="https://ureckchan.github.io/Portfolio/" target="_blank" className="icon portfolio"></a>
   </div>
 
       <small> &copy; {year} {lenguajeData["footer-copyright"][lenguaje]}</small>

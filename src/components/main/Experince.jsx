@@ -20,6 +20,12 @@ const Experince = () => {
                 Place={lenguajeData["experience-2"][lenguaje].company}
                 Dates={lenguajeData["experience-2"][lenguaje].dates}
             />
+            <Timeline 
+                Duration={lenguajeData["experience-3"][lenguaje].duration}
+                Title={lenguajeData["experience-3"][lenguaje].role}
+                Place={lenguajeData["experience-3"][lenguaje].company}
+                Dates={lenguajeData["experience-3"][lenguaje].dates}
+            />
             </div>
         </section>
     );

@@ -39,7 +39,30 @@
   },
   "experience-1": {
     "es": {
-      "duration": "Junio 2025 - Actualmente",
+      "duration": "Enero 2026 - Actualmente",
+      "role": "Desarrollo de software",
+      "company": "Municipio de San Juan del Río, Qro.",
+      "dates": [
+        "Desarrollo de software.",
+        "Mantenimiento de sistemas.",
+        "Gestión de bases de datos."
+      ]
+    },
+    "en": {
+      "duration": "January 2026 - Present",
+      "role": "Software developer",
+      "company": "Municipio de San Juan del Río, Qro.",
+      "dates": [
+        "Software development.",
+        "System maintenance.",
+        "Database management."
+      ]
+    }
+  },
+
+  "experience-2": {
+    "es": {
+      "duration": "Junio 2025 - Enero 2026",
       "role": "Técnico de TI",
       "company": "LG Innotek",
       "dates": [
@@ -49,7 +72,7 @@
       ]
     },
     "en": {
-      "duration": "June 2025 - Present",
+      "duration": "June 2025 - January 2026",
       "role": "IT Technician",
       "company": "LG Innotek",
       "dates": [
@@ -59,7 +82,7 @@
       ]
     }
   },
-  "experience-2": {
+  "experience-3": {
     "es": {
       "duration": "Junio 2024 - Junio 2025",
       "role": "Desarrollador Full Stack",
@@ -102,6 +125,32 @@
     "en": "Projects"
   },
   "projects": [
+    {
+      "image": "IncidenciasBanner.png",
+      "title": {
+        "es": "Tickets de Incidencias",
+        "en": "Incident Ticket System"
+      },
+      "description": {
+        "es": "Aplicación web desarrollada con Next.js para la gestión de tickets de incidencias. Permite registrar, visualizar y dar seguimiento a reportes de manera eficiente, con una interfaz moderna y responsiva orientada a mejorar el control y la atención de incidencias.",
+        "en": "Web application developed with Next.js for incident ticket management. It allows users to create, view, and track incident reports efficiently through a modern and responsive interface designed to improve incident control and resolution."
+      },
+      "technologies": [
+        { "name": "NextJS", "img": "nextjs.svg", "color": "#000000" },
+        { "name": "JavaScript", "img": "javascript.svg", "color": "#F7DF1E" },
+        { "name": "Tailwind CSS", "img": "tailwindcss.svg", "color": "#38BDF8" }
+      ],
+      "button1": {
+        "es": "Ver proyecto",
+        "en": "View project"
+      },
+      "button2": {
+        "es": "Ver código",
+        "en": "View code"
+      },
+      "link": "https://tickets-incidencias.vercel.app/",
+      "link2": "https://github.com/UreckChan/Tickets-Incidencias"
+    },
     {
       "image": "TheSimpsonsBanner.png",
       "title": {
