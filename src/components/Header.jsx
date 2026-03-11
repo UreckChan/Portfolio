@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useLenguaje } from "../hooks/useLenguaje";
 import { useTheme } from "../hooks/useTheme";
-import Logo from "../assets/Logo.png";
 
 const Header = () => {
   const { lenguajeData, lenguaje, setLenguaje } = useLenguaje();
@@ -15,7 +14,7 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src={Logo || `/assets/logo.png`} alt="Logo"/>
+        <img src="/Portfolio/assets/icons/Logo.png" alt="Logo"/>
         <h2 className="header-name">{lenguajeData.name}</h2>
       </div>
 
