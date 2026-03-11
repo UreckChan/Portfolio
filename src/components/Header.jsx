@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src="/Portfolio/assets/icons/Logo.png" alt="Logo"/>
+        <img src={"/Portfolio/assets/icons/Logo.png" || "/assets/logo.png"} alt="Logo" />
         <h2 className="header-name">{lenguajeData.name}</h2>
       </div>
 
