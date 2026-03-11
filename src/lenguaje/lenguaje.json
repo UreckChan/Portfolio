@@ -104,7 +104,7 @@
   },
   "projects": [
   {
-    "image": "IncidenciasBanner.jpeg",
+    "image": "banners/IncidenciasBanner.jpeg",
     "title": {
       "es": "Tickets de Incidencias",
       "en": "Incident Ticket System"
@@ -114,9 +114,9 @@
       "en": "Next.js web application for managing and tracking incident tickets through a modern and responsive interface."
     },
     "technologies": [
-      { "name": "NextJS", "img": "next.svg", "color": "#FFFFFF" },
-      { "name": "JavaScript", "img": "javascript.svg", "color": "#F7DF1E" },
-      { "name": "Tailwind CSS", "img": "tailwindcss.svg", "color": "#38BDF8" }
+      { "name": "NextJS", "img": "icons/next.svg", "color": "#FFFFFF" },
+      { "name": "JavaScript", "img": "icons/javascript.svg", "color": "#F7DF1E" },
+      { "name": "Tailwind CSS", "img": "icons/tailwindcss.svg", "color": "#38BDF8" }
     ],
     "button1": {
       "es": "Ver proyecto",
@@ -130,7 +130,7 @@
     "link2": "https://github.com/UreckChan/Tickets-Incidencias"
   },
       {
-      "image": "TheSimpsonsBanner.png",
+      "image": "banners/TheSimpsonsBanner.png",
       "title": {
         "es": "The Simpsons Universe",
         "en": "The Simpsons Universe"
@@ -140,9 +140,9 @@
         "en": "Web application developed with React that consumes the public API with axios of The Simpsons."
       },
       "technologies": [
-        { "name": "React", "img": "react.svg", "color": "#61DAFB" },
-        { "name": "JavaScript", "img": "javascript.svg", "color": "#F7DF1E" },
-        { "name": "Tailwind CSS", "img": "tailwindcss.svg", "color": "#38BDF8" }
+        { "name": "React", "img": "icons/react.svg", "color": "#61DAFB" },
+        { "name": "JavaScript", "img": "icons/javascript.svg", "color": "#F7DF1E" },
+        { "name": "Tailwind CSS", "img": "icons/tailwindcss.svg", "color": "#38BDF8" }
       ],
       "button1": {
         "es": "Ver Proyecto",
@@ -159,7 +159,7 @@
 
 
   {
-      "image":  "BannerProject1.png",
+      "image": "banners/BannerProject1.png",
       "title": {
         "es": "Portafolio Personal",
         "en": "Personal Portfolio"
@@ -169,9 +169,9 @@
         "en": "Personal website to showcase my work and skills as a web developer."
       },
       "technologies": [
-      {"name": "React", "img":"react.svg" , "color": "#61DAFB"}, 
-      {"name": "JavaScript", "img":"javascript.svg" , "color": "#F7DF1E"},
-      {"name": "CSS", "img":"css.svg" , "color": "#264DE4"}
+      {"name": "React", "img": "icons/react.svg", "color": "#61DAFB"},
+      {"name": "JavaScript", "img": "icons/javascript.svg", "color": "#F7DF1E"},
+      {"name": "CSS", "img": "icons/css.svg", "color": "#264DE4"}
       
     ],
       "button1": {
