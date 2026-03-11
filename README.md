@@ -1,100 +1,66 @@
-# 👋 ¡Hola! Soy Uriel Gomez Becerril / Hello! I'm Uriel Gomez Becerril
+# Hi, I'm Uriel Gomez Becerril <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="35">
 
-<img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50">  
-<img align="right" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZoY3ZhM3F1cG5uNWlwZGQ0Zzh4ZDJranBxaG93MHl5bzA0bDJkYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13HBDT4QSTpveU/giphy.gif" width="35%">
+<img align="right" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZoY3ZhM3F1cG5uNWlwZGQ0Zzh4ZDJranBxaG93MHl5bzA0bDJkYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13HBDT4QSTpveU/giphy.gif" width="30%">
 
-**Desarrollador FullStack | React | NodeJS | JavaScript | SQL | HTML | CSS | Git**  
-**FullStack Developer | React | NodeJS | JavaScript | SQL | HTML | CSS | Git**
+### FullStack Developer
 
-Apasionado por construir aplicaciones web responsivas y centradas en el usuario utilizando tecnologías modernas.  
-Passionate about building responsive and user-focused web applications using modern technologies.
-
----
-
-## 💼 Experiencia Laboral / Work Experience
-
-### 🖥️ Técnico de TI | LG Innotek  
-📅 Jun 2025 – Actualidad | 📍 San Juan del Río, Querétaro, México  
-**IT Technician | LG Innotek**  
-📅 Jun 2025 – Present | 📍 San Juan del Río, Querétaro, México
-
----
-
-### 🛠️ Técnico de TI | Mitsubishi Electric de México  
-📅 Ene 2025 – Abr 2025 | 📍 San Juan del Río, Querétaro  
-**IT Technician | Mitsubishi Electric Mexico**  
-📅 Jan 2025 – Apr 2025 | 📍 San Juan del Río, Querétaro
-
----
-
-### 🎓 Becario | Mitsubishi Electric de México  
-📅 Sept 2024 – Ene 2025 | 📍 San Juan del Río, Querétaro  
-**Intern | Mitsubishi Electric Mexico**  
-📅 Sept 2024 – Jan 2025 | 📍 San Juan del Río, Querétaro
-
----
-
-## 🎓 Educación / Education
-
-**Universidad Tecnológica de San Juan del Río**  
-**Ingeniería en Desarrollo y Gestión de Software**  
-📅 2021 – 2025  
-Actividades: Jefe de Grupo, Equipo de Volleyball 🏐  
-
-**Technological University of San Juan del Río**  
-**Software Development and Management Engineering**  
-📅 2021 – 2025  
-Activities: Group Leader, Volleyball Team 🏐
-
----
-
-## 🚀 Tecnologías y Herramientas / Technologies & Tools
-
-| Lenguajes / Languages | Frontend | Backend | Control de Versiones / Version Control |
-|----------------------|----------|---------|----------------------------------------|
-| ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
-| ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | | | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | | | |
-| ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) | | | |
-
----
-
-## 🧠 Acerca de mí / About Me
-
-Apasionado por construir aplicaciones web modernas, funcionales y accesibles usando HTML5, CSS, JavaScript y frameworks actuales como React y NodeJS.  
-Siempre dispuesto a aprender, mejorar procesos y trabajar en proyectos desafiantes.  
-
-Passionate about building modern, functional, and accessible web applications using HTML5, CSS, JavaScript, and modern frameworks like React and NodeJS.  
+Passionate about building responsive, user-centric web applications using modern technologies.  
 Always eager to learn, improve processes, and take on challenging projects.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/uriel-gomez-becerril)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/UreckChan)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://ureckchan.github.io/Portfolio)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:urielgomeztrabajo@hotmail.com)
+
 ---
 
-## 🌐 Portafolio / Portfolio
+## 🚀 Technologies & Tools
 
-🔗 Explora mi portafolio hecho con React:  
-🔗 Explore my React-built portfolio:  
-👉 [**https://ureckchan.github.io/Portfolio**](https://ureckchan.github.io/Portfolio)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
 ---
 
-## 📱 Redes Sociales / Social Media
+## 💼 Work Experience
 
-<p>
-  <a href="https://www.instagram.com/uriel_gom3z"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
-  <a href="https://www.linkedin.com/in/uriel-gomez-becerril"><img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>
-  <a href="https://www.facebook.com/UrielGomezYT"><img src="https://img.icons8.com/color/48/000000/facebook.png"/></a>
+**IT Technician — LG Innotek** `June 2025 – January 2026`  
+📍 San Juan del Río, Querétaro, México
+- Technical support to users.
+- Monitoring of IT services.
+- Logging and tracking of incidents.
+
+**Full Stack Developer — Mitsubishi Electric de México** `June 2024 – June 2025`  
+📍 San Juan del Río, Querétaro
+- Web development with React.
+- APIs and backend with Node.js.
+- Database design and management.
+
+---
+
+## 🎓 Education
+
+**Engineering in Software Development and Management**  
+Universidad Tecnológica de San Juan del Río · `August 2021 – December 2024`
+
+---
+
+## 🗂️ Projects
+
+| Project | Description | Stack | Links |
+|---------|-------------|-------|-------|
+| **Incident Ticket System** | Web app for managing and tracking incident tickets | Next.js · JS · Tailwind | [Demo](https://tickets-incidencias.vercel.app/) · [Code](https://github.com/UreckChan/Tickets-Incidencias) |
+| **The Simpsons Universe** | React app consuming The Simpsons public API | React · JS · Tailwind | [Demo](https://ureckchan.github.io/TheSimpsonsUniverse) · [Code](https://github.com/UreckChan/TheSimpsonsUniverse) |
+| **Personal Portfolio** | Portfolio with light/dark mode support | React · JS · CSS | [Demo](https://ureckchan.github.io/Portfolio) · [Code](https://github.com/UreckChan/Portfolio) |
+
+---
+
+<p align="center">
+  <sub>☀️🌙 The portfolio supports light and dark mode — preference saved automatically.</sub>
 </p>
-
----
-
-## ☀️🌙 Modo Claro / Obscuro  
-**Light / Dark Mode Support**
-
-Mi portafolio soporta **modo claro y oscuro** para una mejor experiencia visual.  
-Puedes cambiar entre modos usando un botón, y tu preferencia se guarda automáticamente.  
-
-My portfolio supports **light and dark mode** for a better visual experience.  
-You can toggle between modes and your preference is saved automatically.
-
----
-
-## ✨ ¡Gracias por visitar! / Thanks for stopping by!
