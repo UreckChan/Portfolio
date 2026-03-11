@@ -114,7 +114,7 @@
       "en": "Next.js web application for managing and tracking incident tickets through a modern and responsive interface."
     },
     "technologies": [
-      { "name": "NextJS", "img": "next.svg", "color": "#000000" },
+      { "name": "NextJS", "img": "next.svg", "color": "#FFFFFF" },
       { "name": "JavaScript", "img": "javascript.svg", "color": "#F7DF1E" },
       { "name": "Tailwind CSS", "img": "tailwindcss.svg", "color": "#38BDF8" }
     ],
