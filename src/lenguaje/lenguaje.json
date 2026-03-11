@@ -37,30 +37,8 @@
     "es": "Experiencia Laboral",
     "en": "Work Experience"
   },
-  "experience-1": {
-    "es": {
-      "duration": "Enero 2026 - Actualmente",
-      "role": "Desarrollo de software",
-      "company": "Municipio de San Juan del Río, Qro.",
-      "dates": [
-        "Desarrollo de software.",
-        "Mantenimiento de sistemas.",
-        "Gestión de bases de datos."
-      ]
-    },
-    "en": {
-      "duration": "January 2026 - Present",
-      "role": "Software developer",
-      "company": "Municipio de San Juan del Río, Qro.",
-      "dates": [
-        "Software development.",
-        "System maintenance.",
-        "Database management."
-      ]
-    }
-  },
 
-  "experience-2": {
+  "experience-1": {
     "es": {
       "duration": "Junio 2025 - Enero 2026",
       "role": "Técnico de TI",
@@ -82,7 +60,7 @@
       ]
     }
   },
-  "experience-3": {
+  "experience-2": {
     "es": {
       "duration": "Junio 2024 - Junio 2025",
       "role": "Desarrollador Full Stack",
