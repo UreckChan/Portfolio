@@ -40,6 +40,28 @@
 
   "experience-1": {
     "es": {
+      "duration": "Enero 2026 - Actualmente",
+      "role": "Desarrollador de Software",
+      "company": "Presidencia de San Juan del Río",
+      "dates": [
+        "Desarrollo y mantenimiento de aplicaciones web y móviles.",
+        "Implementación de soluciones tecnológicas para la administración municipal.",
+        "Optimización de procesos internos mediante automatización."
+      ]
+    },
+    "en": {
+      "duration": "January 2026 - Present",
+      "role": "Software Developer",
+      "company": "Presidencia de San Juan del Río",
+      "dates": [
+        "Development and maintenance of web and mobile applications.",
+        "Implementation of technological solutions for municipal administration.",
+        "Optimization of internal processes through automation."
+      ]
+    }
+  },
+  "experience-2": {
+    "es": {
       "duration": "Junio 2025 - Enero 2026",
       "role": "Técnico de TI",
       "company": "LG Innotek",
@@ -60,9 +82,9 @@
       ]
     }
   },
-  "experience-2": {
+  "experience-3": {
     "es": {
-      "duration": "Junio 2024 - Junio 2025",
+      "duration": "Septiembre 2024 - Abril 2025",
       "role": "Desarrollador Full Stack",
       "company": "Mitsubishi Electric de México",
       "dates": [
@@ -72,35 +94,13 @@
       ]
     },
     "en": {
-      "duration": "June 2024 - June 2025",
+      "duration": "September 2024 - April 2025",
       "role": "Full Stack Developer",
       "company": "Mitsubishi Electric de México",
       "dates": [
         "Web development with React.",
         "APIs and backend with Node.js.",
         "Database design and management."
-      ]
-    }
-  },
-  "experience-3": {
-    "es": {
-      "duration": "Enero 2026 - Actualmente",
-      "role": "Desarrollador de Software",
-      "company": "Presidencia de San Juan del Río",
-      "dates": [
-        "Desarrollo y mantenimiento de aplicaciones web y móviles.",
-        "Implementación de soluciones tecnológicas para la administración municipal.",
-        "Optimización de procesos internos mediante automatización."
-      ]
-    },
-    "en": {
-      "duration": "January 2026 - Present",
-      "role": "Software Developer",
-      "company": "Presidencia de San Juan del Río",
-      "dates": [
-        "Development and maintenance of web and mobile applications.",
-        "Implementation of technological solutions for municipal administration.",
-        "Optimization of internal processes through automation."
       ]
     }
   },

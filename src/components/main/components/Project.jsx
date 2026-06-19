@@ -1,10 +1,56 @@
 import { useEffect, useState } from "react";
 import { useLenguaje } from "../../../hooks/useLenguaje";
+import { useTheme } from "../../../hooks/useTheme";
 
+const svgCache = {};
+
+const TechnologyBadge = ({ tech, fillColor }) => {
+  const [content, setContent] = useState(null);
+  const cacheKey = tech.img;
+
+  useEffect(() => {
+    if (svgCache[cacheKey]) {
+      setContent(svgCache[cacheKey]);
+      return;
+    }
+    fetch(`/Portfolio/assets/${tech.img}`)
+      .then((r) => r.text())
+      .then((text) => {
+        const svgMatch = text.match(/<svg\s+([^>]*)>([\s\S]*?)<\/svg>/);
+        if (svgMatch) {
+          const attrs = svgMatch[1];
+          const inner = svgMatch[2].replace(/ fill="[^"]*"/g, "");
+          const vbMatch = attrs.match(/viewBox="([^"]+)"/);
+          const viewBox = vbMatch ? vbMatch[1] : "0 0 24 24";
+          const cleaned = inner.replace(/<g[^>]*>/g, "").replace(/<\/g>/g, "");
+          const data = { inner: cleaned, viewBox };
+          svgCache[cacheKey] = data;
+          setContent(data);
+        }
+      })
+      .catch(() => {});
+  }, [cacheKey]);
+
+  if (!content) return null;
+
+  return (
+    <svg className="technology-badge" style={{ fill: fillColor }} viewBox={content.viewBox}>
+      <g dangerouslySetInnerHTML={{ __html: content.inner }} />
+    </svg>
+  );
+};
 
 const Project = ({image, title, description, technologies, button1, button2, link, link2}) => {
     const { lenguaje } = useLenguaje();
+    const { theme } = useTheme();
     const [imgError, setImgError] = useState(false);
+
+    const getTechColor = (tech) => {
+      if (tech.name === "NextJS") {
+        return theme === "dark" ? "#FFFFFF" : "#000000";
+      }
+      return tech.color;
+    };
 
 
     return (
@@ -31,10 +77,8 @@ const Project = ({image, title, description, technologies, button1, button2, lin
                 <h3>{title[lenguaje]}</h3>
                 <ul className="project-tech">
                 {Array.isArray(technologies) && technologies.map((tech, index) => (
-                <li className="technology-badges" key={index} style={{ color: tech.color }}>
-                    <svg className="technology-badge" style={{ fill: tech.color }}>
-                        <use xlinkHref={`/Portfolio/assets/${tech.img}` || `/assets/${tech.img}`}  />
-                    </svg>
+                <li className="technology-badges" key={index} style={{ color: getTechColor(tech) }}>
+                    <TechnologyBadge tech={tech} fillColor={getTechColor(tech)} />
                 </li>
                 ))}
 
