@@ -125,6 +125,26 @@
     "en": "Projects"
   },
   "projects": [
+        {
+      "image": "banners/FluxoBanner.png",
+      "title": {
+        "es": "Fluxo - Asistente Financiero",
+        "en": "Fluxo - Financial Assistant"
+      },
+      "description": {
+        "es": "Asistente financiero personal 100% offline. Tus datos nunca salen de tu dispositivo.",
+        "en": "Personal financial assistant that works 100% offline. Your data never leaves your device."
+      },
+      "technologies": [
+        { "name": "Dart", "img": "icons/dart.svg", "color": "#0175C2" },
+        { "name": "Flutter", "img": "icons/flutter.svg", "color": "#02569B" }
+      ],
+      "button1": {
+        "es": "Ver en Play Store",
+        "en": "View on Play Store"
+      },
+      "link": "https://play.google.com/store/apps/details?id=com.fluxo.appfinanzas"
+    },
   {
     "image": "banners/IncidenciasBanner.jpeg",
     "title": {
@@ -206,32 +226,8 @@
       },
       "link": "https://ureckchan.github.io/Portfolio",
       "link2": "https://github.com/UreckChan/Portfolio"
-    },
-    {
-      "image": "banners/FluxoBanner.png",
-      "title": {
-        "es": "Fluxo - Asistente Financiero",
-        "en": "Fluxo - Financial Assistant"
-      },
-      "description": {
-        "es": "Asistente financiero personal 100% offline. Tus datos nunca salen de tu dispositivo.",
-        "en": "Personal financial assistant that works 100% offline. Your data never leaves your device."
-      },
-      "technologies": [
-        { "name": "Dart", "img": "icons/dart.svg", "color": "#0175C2" },
-        { "name": "Flutter", "img": "icons/flutter.svg", "color": "#02569B" }
-      ],
-      "button1": {
-        "es": "Ver en Play Store",
-        "en": "View on Play Store"
-      },
-      "button2": {
-        "es": "Ver en Play Store",
-        "en": "View on Play Store"
-      },
-      "link": "https://play.google.com/store/apps/details?id=com.fluxo.appfinanzas",
-      "link2": "https://play.google.com/store/apps/details?id=com.fluxo.appfinanzas"
     }
+
   ],
   "footer-title": {
     "es": "Ponte en contacto:",

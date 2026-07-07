@@ -89,9 +89,11 @@ const Project = ({image, title, description, technologies, button1, button2, lin
                  <a href={link}>
                      <button>{button1[lenguaje]}</button>
                  </a>
-                 <a href={link2}>
-                     <button>{button2[lenguaje]}</button>
-                 </a>
+                 {link2 && button2 && (
+                     <a href={link2}>
+                         <button>{button2[lenguaje]}</button>
+                     </a>
+                 )}
                 </div>
              </div>
         </div>
