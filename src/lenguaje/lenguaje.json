@@ -30,8 +30,8 @@
     "en": "About me"
   },
   "aboutme-description": {
-    "es": "Apasionado por construir aplicaciones web responsivas y centradas en el usuario utilizando HTML5, CSS, JavaScript y frameworks y librerías modernos. Mi objetivo es contribuir a soluciones de software innovadoras, mejorar las experiencias de usuario e impulsar la eficiencia operativa en diversos proyectos tecnológicos. Siempre estoy ansioso por aprender y crecer en entornos de desarrollo dinámicos.",
-    "en": "Passionate about building responsive, user-centric web applications using HTML5, CSS, JavaScript, and modern frameworks and libraries. My goal is to contribute to innovative software solutions, enhance user experiences, and drive operational efficiency across various tech projects. I am always eager to learn and grow in dynamic development environments."
+    "es": "Desarrollador Full Stack con experiencia profesional construyendo aplicaciones web con React.js, Next.js y Node.js en entornos corporativos y de administración pública. He trabajado con bases de datos SQL/MySQL y MongoDB, integración de APIs RESTful y automatización de procesos. Cuento con conocimientos en Python (proyectos IoT con Raspberry Pi) y Flutter (desarrollo móvil). Busco una posición de desarrollo donde seguir creciendo técnicamente.",
+    "en": "Full Stack Developer with professional experience building web applications with React.js, Next.js and Node.js across corporate and public administration environments. I've worked with SQL/MySQL and MongoDB databases, RESTful API integration and process automation. I also have experience with Python (IoT projects with Raspberry Pi) and Flutter (mobile development). I'm looking for a development role where I can keep growing technically."
   },
   "experience-title": {
     "es": "Experiencia Laboral",
@@ -42,21 +42,21 @@
     "es": {
       "duration": "Enero 2026 - Actualmente",
       "role": "Desarrollador de Software",
-      "company": "Presidencia de San Juan del Río",
+      "company": "Presidencia Municipal de San Juan del Río",
       "dates": [
-        "Desarrollo y mantenimiento de aplicaciones web y móviles.",
-        "Implementación de soluciones tecnológicas para la administración municipal.",
-        "Optimización de procesos internos mediante automatización."
+        "Desarrollo y mantenimiento de aplicaciones web y móviles con React.js y Next.js para la administración municipal, atendiendo a más de 500 usuarios internos.",
+        "Automatización de procesos internos mediante scripts de Node.js, reduciendo los tiempos de gestión manual en aproximadamente un 30%.",
+        "Implementación de soluciones tecnológicas para optimizar trámites y servicios internos del municipio."
       ]
     },
     "en": {
       "duration": "January 2026 - Present",
       "role": "Software Developer",
-      "company": "Presidencia de San Juan del Río",
+      "company": "Presidencia Municipal de San Juan del Río",
       "dates": [
-        "Development and maintenance of web and mobile applications.",
-        "Implementation of technological solutions for municipal administration.",
-        "Optimization of internal processes through automation."
+        "Development and maintenance of web and mobile applications with React.js and Next.js for the municipal administration, serving 500+ internal users.",
+        "Automation of internal processes through Node.js scripts, reducing manual management time by roughly 30%.",
+        "Implementation of technological solutions to streamline internal municipal procedures and services."
       ]
     }
   },
@@ -66,9 +66,8 @@
       "role": "Técnico de TI",
       "company": "LG Innotek",
       "dates": [
-        "Soporte técnico a usuarios.",
-        "Monitoreo de servicios de TI.",
-        "Registro y seguimiento de incidencias."
+        "Participé en la instalación de red estructurada para la conexión de una nueva línea de producción, coordinando el cableado y configuración de equipos de red.",
+        "Soporte técnico y mantenimiento de un parque de más de 150 equipos de cómputo, con registro y seguimiento de incidencias de TI en planta."
       ]
     },
     "en": {
@@ -76,9 +75,8 @@
       "role": "IT Technician",
       "company": "LG Innotek",
       "dates": [
-        "Technical support to users.",
-        "Monitoring of IT services.",
-        "Logging and tracking of incidents."
+        "Took part in structured network installation for a new production line, coordinating cabling and network equipment configuration.",
+        "Technical support and maintenance for a fleet of 150+ computers, logging and tracking IT incidents on the plant floor."
       ]
     }
   },
@@ -88,9 +86,9 @@
       "role": "Desarrollador Full Stack",
       "company": "Mitsubishi Electric de México",
       "dates": [
-        "Desarrollo web con React.",
-        "APIs y backend con Node.js.",
-        "Diseño y gestión de bases de datos."
+        "Desarrollo de aplicaciones web con React.js (componentes funcionales, hooks, Context API) para proyectos internos de la planta.",
+        "Construcción de APIs RESTful con Node.js y Express, conectando servicios de backend con interfaces de frontend.",
+        "Diseño y gestión de bases de datos relacionales en MySQL, incluyendo consultas complejas de extracción y reporte de datos de producción."
       ]
     },
     "en": {
@@ -98,9 +96,27 @@
       "role": "Full Stack Developer",
       "company": "Mitsubishi Electric de México",
       "dates": [
-        "Web development with React.",
-        "APIs and backend with Node.js.",
-        "Database design and management."
+        "Development of web applications with React.js (functional components, hooks, Context API) for internal plant projects.",
+        "Built RESTful APIs with Node.js and Express, connecting backend services with frontend interfaces.",
+        "Designed and managed relational databases in MySQL, including complex queries for production data extraction and reporting."
+      ]
+    }
+  },
+  "experience-4": {
+    "es": {
+      "duration": "Mayo 2023 - Agosto 2023",
+      "role": "Auxiliar de Sistemas (Practicante)",
+      "company": "Ferbel",
+      "dates": [
+        "Desarrollé un sistema de control de entradas y salidas para gestión de inventario de almacén, mejorando la trazabilidad y eficiencia operativa del departamento."
+      ]
+    },
+    "en": {
+      "duration": "May 2023 - August 2023",
+      "role": "Systems Assistant (Intern)",
+      "company": "Ferbel",
+      "dates": [
+        "Developed an entry/exit control system for warehouse inventory management, improving traceability and operational efficiency for the department."
       ]
     }
   },
@@ -110,12 +126,12 @@
   },
   "education-1": {
     "es": {
-      "duration": "Agosto 2021 - Diciembre 2024",
+      "duration": "2021 - 2025",
       "degree": "Ingeniería en Desarrollo y Gestión de Software",
       "institution": "Universidad Tecnológica de San Juan del Río"
     },
     "en": {
-      "duration": "August 2021 - December 2024",
+      "duration": "2021 - 2025",
       "degree": "Engineering in Software Development and Management",
       "institution": "Universidad Tecnológica de San Juan del Río"
     }
@@ -125,6 +141,27 @@
     "en": "Projects"
   },
   "projects": [
+        {
+      "image": "banners/PortfolioBanner.jpeg",
+      "title": {
+        "es": "Portafolio Club Penguin",
+        "en": "Club Penguin Portfolio"
+      },
+      "description": {
+        "es": "Nuevo portafolio interactivo estilo Club Penguin hecho con Astro, con pingüino animado, chat y navegación temática.",
+        "en": "New interactive Club-Penguin-styled portfolio built with Astro, featuring an animated penguin, chat, and themed navigation."
+      },
+      "technologies": [
+        { "name": "Astro", "img": "icons/astro.svg", "color": "#FF5D01" },
+        { "name": "CSS", "img": "icons/css.svg", "color": "#264DE4" },
+        { "name": "Vercel", "img": "icons/vercel.svg", "color": "#000000" }
+      ],
+      "button1": {
+        "es": "Ver Proyecto",
+        "en": "View Project"
+      },
+      "link": "https://ureck.vercel.app"
+    },
         {
       "image": "banners/FluxoBanner.png",
       "title": {
