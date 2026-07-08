@@ -44,7 +44,7 @@
       "role": "Desarrollador de Software",
       "company": "Presidencia Municipal de San Juan del Río",
       "dates": [
-        "Desarrollo y mantenimiento de aplicaciones web y móviles con React.js y Next.js para la administración municipal, atendiendo a más de 500 usuarios internos.",
+        "Desarrollo y mantenimiento de aplicaciones web y móviles con React.js y Next.js para la administración municipal.",
         "Automatización de procesos internos mediante scripts de Node.js, reduciendo los tiempos de gestión manual en aproximadamente un 30%.",
         "Implementación de soluciones tecnológicas para optimizar trámites y servicios internos del municipio."
       ]
@@ -54,7 +54,7 @@
       "role": "Software Developer",
       "company": "Presidencia Municipal de San Juan del Río",
       "dates": [
-        "Development and maintenance of web and mobile applications with React.js and Next.js for the municipal administration, serving 500+ internal users.",
+        "Development and maintenance of web and mobile applications with React.js and Next.js for the municipal administration.",
         "Automation of internal processes through Node.js scripts, reducing manual management time by roughly 30%.",
         "Implementation of technological solutions to streamline internal municipal procedures and services."
       ]
