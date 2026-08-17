@@ -7,7 +7,14 @@ const AboutMe = () => {
   return (
     <section id="aboutme" className="settings-section about-section">
       <h2 className="title-section">{lenguajeData["aboutme-title"][lenguaje]}</h2>
-      <p className="about-description">{lenguajeData["aboutme-description"][lenguaje]}</p>
+      {/* La biografía viene en varios párrafos separados por línea en blanco */}
+      {lenguajeData["aboutme-description"][lenguaje]
+        .split("\n\n")
+        .map((parrafo, i) => (
+          <p className="about-description" key={i}>
+            {parrafo}
+          </p>
+        ))}
     </section>
   );
 };

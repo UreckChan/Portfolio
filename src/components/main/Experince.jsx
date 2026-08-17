@@ -24,6 +24,7 @@ const Experince = () => {
                 Duration={lenguajeData["experience-3"][lenguaje].duration}
                 Title={lenguajeData["experience-3"][lenguaje].role}
                 Place={lenguajeData["experience-3"][lenguaje].company}
+                Note={lenguajeData["experience-3"][lenguaje].note}
                 Dates={lenguajeData["experience-3"][lenguaje].dates}
             />
             <Timeline

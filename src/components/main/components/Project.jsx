@@ -40,7 +40,7 @@ const TechnologyBadge = ({ tech, fillColor }) => {
   );
 };
 
-const Project = ({image, title, description, technologies, button1, button2, link, link2}) => {
+const Project = ({image, title, description, highlights, technologies, button1, button2, link, link2}) => {
     const { lenguaje } = useLenguaje();
     const { theme } = useTheme();
     const [imgError, setImgError] = useState(false);
@@ -85,6 +85,13 @@ const Project = ({image, title, description, technologies, button1, button2, lin
                 </ul>
                 </div>
                 <p>{description[lenguaje]}</p>
+                {highlights && highlights[lenguaje] && (
+                  <ul className="project-highlights">
+                    {highlights[lenguaje].map((punto, i) => (
+                      <li key={i}>{punto}</li>
+                    ))}
+                  </ul>
+                )}
                 <div className="project-buttons">
                  <a href={link}>
                      <button>{button1[lenguaje]}</button>

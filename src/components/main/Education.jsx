@@ -12,6 +12,7 @@ const Education = ()=>{
             Duration={lenguajeData["education-1"][lenguaje].duration}
             Title={lenguajeData["education-1"][lenguaje].degree}
             Place={lenguajeData["education-1"][lenguaje].institution}
+            Note={lenguajeData["education-1"][lenguaje].note}
         />
         </div>
     </section>);

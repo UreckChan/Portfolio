@@ -30,14 +30,13 @@
     "en": "About me"
   },
   "aboutme-description": {
-    "es": "Desarrollador Full Stack con experiencia profesional construyendo aplicaciones web con React.js, Next.js y Node.js en entornos corporativos y de administración pública. He trabajado con bases de datos SQL/MySQL y MongoDB, integración de APIs RESTful y automatización de procesos. Cuento con conocimientos en Python (proyectos IoT con Raspberry Pi) y Flutter (desarrollo móvil). Busco una posición de desarrollo donde seguir creciendo técnicamente.",
-    "en": "Full Stack Developer with professional experience building web applications with React.js, Next.js and Node.js across corporate and public administration environments. I've worked with SQL/MySQL and MongoDB databases, RESTful API integration and process automation. I also have experience with Python (IoT projects with Raspberry Pi) and Flutter (mobile development). I'm looking for a development role where I can keep growing technically."
+    "es": "Soy Uriel Gómez Becerril, desarrollador Full Stack radicado en Querétaro, México. Ingeniero en Desarrollo y Gestión de Software titulado por la Universidad Tecnológica de San Juan del Río, construyo aplicaciones web y móviles con React.js, Next.js, Node.js y Flutter.\n\nMi experiencia cubre tres entornos distintos: la industria manufacturera en Mitsubishi Electric de México, donde desarrollé aplicaciones internas con React y APIs RESTful con Node.js y Express sobre bases de datos MySQL; la infraestructura de TI en planta en LG Innotek, dando soporte a más de 150 equipos y participando en la instalación de red de una nueva línea de producción; y la administración pública en la Presidencia Municipal de San Juan del Río, donde desarrollo aplicaciones para trámites municipales y automaticé procesos internos con Node.js reduciendo cerca de un 30% los tiempos de gestión manual.\n\nEsa mezcla me dejó una idea clara de lo que importa: el software se usa en condiciones reales, con usuarios que no son técnicos y procesos que ya existían antes que el código. Diseño pensando en eso, no en la demo.",
+    "en": "I'm Uriel Gómez Becerril, a Full Stack developer based in Querétaro, Mexico. I hold an Engineering degree in Software Development and Management from Universidad Tecnológica de San Juan del Río, and I build web and mobile applications with React.js, Next.js, Node.js and Flutter.\n\nMy experience spans three very different environments: manufacturing at Mitsubishi Electric de México, where I built internal applications with React and RESTful APIs with Node.js and Express on top of MySQL databases; plant IT infrastructure at LG Innotek, supporting 150+ machines and helping install the network for a new production line; and public administration at the San Juan del Río city government, where I develop applications for municipal procedures and automated internal processes with Node.js, cutting manual handling time by roughly 30%.\n\nThat mix taught me what actually matters: software runs in real conditions, with non-technical users and processes that existed long before the code did. I design for that, not for the demo."
   },
   "experience-title": {
     "es": "Experiencia Laboral",
     "en": "Work Experience"
   },
-
   "experience-1": {
     "es": {
       "duration": "Enero 2026 - Actualmente",
@@ -85,6 +84,7 @@
       "duration": "Septiembre 2024 - Abril 2025",
       "role": "Desarrollador Full Stack",
       "company": "Mitsubishi Electric de México",
+      "note": "Becario (sept–dic 2024) → Técnico de TI (ene–abr 2025)",
       "dates": [
         "Desarrollo de aplicaciones web con React.js (componentes funcionales, hooks, Context API) para proyectos internos de la planta.",
         "Construcción de APIs RESTful con Node.js y Express, conectando servicios de backend con interfaces de frontend.",
@@ -95,6 +95,7 @@
       "duration": "September 2024 - April 2025",
       "role": "Full Stack Developer",
       "company": "Mitsubishi Electric de México",
+      "note": "Intern (Sept–Dec 2024) → IT Technician (Jan–Apr 2025)",
       "dates": [
         "Development of web applications with React.js (functional components, hooks, Context API) for internal plant projects.",
         "Built RESTful APIs with Node.js and Express, connecting backend services with frontend interfaces.",
@@ -128,12 +129,14 @@
     "es": {
       "duration": "2021 - 2025",
       "degree": "Ingeniería en Desarrollo y Gestión de Software",
-      "institution": "Universidad Tecnológica de San Juan del Río"
+      "institution": "Universidad Tecnológica de San Juan del Río",
+      "note": "Titulado · Selección de Voleibol"
     },
     "en": {
       "duration": "2021 - 2025",
       "degree": "Engineering in Software Development and Management",
-      "institution": "Universidad Tecnológica de San Juan del Río"
+      "institution": "Universidad Tecnológica de San Juan del Río",
+      "note": "Graduated · Varsity Volleyball Team"
     }
   },
   "projects-title": {
@@ -141,40 +144,138 @@
     "en": "Projects"
   },
   "projects": [
-        {
-      "image": "banners/PortfolioBanner.jpeg",
+    {
+      "image": "banners/AlexandriaBanner.png",
       "title": {
-        "es": "Portafolio Club Penguin",
-        "en": "Club Penguin Portfolio"
+        "es": "Alexandria - Memoria para Agentes IA",
+        "en": "Alexandria - Memory for AI Agents"
       },
       "description": {
-        "es": "Nuevo portafolio interactivo estilo Club Penguin hecho con Astro, con pingüino animado, chat y navegación temática.",
-        "en": "New interactive Club-Penguin-styled portfolio built with Astro, featuring an animated penguin, chat, and themed navigation."
+        "es": "Bóveda de conocimiento local para agentes de IA, publicada en npm como @ureck/alexandria. Resuelve un problema concreto: cada sesión con un agente arranca de cero y vuelve a gastar tokens redescubriendo lo que ya sabía. Alexandria guarda decisiones, arquitectura y lecciones en notas enlazadas y se las devuelve al agente cuando hacen falta, con un protocolo de planear, ejecutar, verificar y aprender. Todo vive en tu máquina: sin cuentas, sin API keys y sin telemetría.",
+        "en": "Local knowledge vault for AI agents, published on npm as @ureck/alexandria. It solves a concrete problem: every session with an agent starts from zero and burns tokens rediscovering what it already knew. Alexandria stores decisions, architecture and lessons as linked notes and hands them back to the agent when they're needed, following a plan, execute, verify and learn protocol. Everything lives on your machine: no accounts, no API keys, no telemetry."
+      },
+      "highlights": {
+        "es": [
+          "Búsqueda semántica local en menos de 100 ms",
+          "Grafo de conocimiento enlazado, estilo Obsidian",
+          "Funciona con Claude Code, Cursor, Codex, Gemini CLI y más",
+          "100% local: sin cuentas, sin API keys, sin telemetría"
+        ],
+        "en": [
+          "Local semantic search in under 100 ms",
+          "Linked knowledge graph, Obsidian style",
+          "Works with Claude Code, Cursor, Codex, Gemini CLI and more",
+          "100% local: no accounts, no API keys, no telemetry"
+        ]
       },
       "technologies": [
-        { "name": "Astro", "img": "icons/astro.svg", "color": "#FF5D01" },
-        { "name": "CSS", "img": "icons/css.svg", "color": "#264DE4" },
-        { "name": "Vercel", "img": "icons/vercel.svg", "color": "#000000" }
+        {
+          "name": "TypeScript",
+          "img": "icons/typescript.svg",
+          "color": "#3178C6"
+        },
+        {
+          "name": "Node.js",
+          "img": "icons/nodedotjs.svg",
+          "color": "#5FA04E"
+        }
       ],
       "button1": {
-        "es": "Ver Proyecto",
-        "en": "View Project"
+        "es": "Ver proyecto",
+        "en": "View project"
       },
-      "link": "https://ureck.vercel.app"
+      "button2": {
+        "es": "Ver código",
+        "en": "View code"
+      },
+      "link": "https://ureckchan.github.io/alexandria/",
+      "link2": "https://github.com/UreckChan/alexandria"
     },
+    {
+      "image": "banners/CarVersoBanner.png",
+      "title": {
+        "es": "CarVerso - Comparador de Autos",
+        "en": "CarVerso - Car Comparison"
+      },
+      "description": {
+        "es": "Comparador técnico de autos del mercado mexicano, pensado contra la desinformación al comprar coche. Enfrenta hasta tres versiones reales y mide cada una por percentil contra todo el catálogo, así que \"mejor\" es una cifra comprobable y no una puntuación inventada. Cada dato de potencia, rendimiento o emisiones muestra de dónde salió: la ingesta viene de fuentes oficiales como la CONUEE, nunca de portales de venta.",
+        "en": "Technical car comparison tool for the Mexican market, built against the misinformation you face when buying a car. It pits up to three real trim levels against each other and scores every one by percentile across the whole catalogue, so \"better\" is a verifiable figure rather than an invented score. Every power, efficiency or emissions number shows where it came from: data is ingested from official sources such as CONUEE, never from listing sites."
+      },
+      "highlights": {
+        "es": [
+          "Catálogo 2023-2026 con ficha propia por versión",
+          "Percentiles sobre el catálogo completo, sin puntuaciones inventadas",
+          "Cada cifra enlaza a su fuente oficial",
+          "Next.js 16 y React 19 sobre PostgreSQL"
+        ],
+        "en": [
+          "2023-2026 catalogue with its own page per trim level",
+          "Percentiles across the full catalogue, no invented scores",
+          "Every figure links back to its official source",
+          "Next.js 16 and React 19 on PostgreSQL"
+        ]
+      },
+      "technologies": [
         {
+          "name": "NextJS",
+          "img": "icons/next.svg",
+          "color": "#000000"
+        },
+        {
+          "name": "React",
+          "img": "icons/react.svg",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "PostgreSQL",
+          "img": "icons/postgresql.svg",
+          "color": "#4169E1"
+        },
+        {
+          "name": "Tailwind CSS",
+          "img": "icons/tailwindcss.svg",
+          "color": "#38BDF8"
+        }
+      ],
+      "button1": {
+        "es": "Ver proyecto",
+        "en": "View project"
+      },
+      "link": "https://carverso.ureck.dev"
+    },
+    {
       "image": "banners/FluxoBanner.png",
       "title": {
         "es": "Fluxo - Asistente Financiero",
         "en": "Fluxo - Financial Assistant"
       },
       "description": {
-        "es": "Asistente financiero personal 100% offline. Tus datos nunca salen de tu dispositivo.",
-        "en": "Personal financial assistant that works 100% offline. Your data never leaves your device."
+        "es": "Aplicación Android de finanzas personales, publicada en Google Play, que funciona 100% offline: no hay cuenta que crear ni servidor detrás. Todos los movimientos se guardan en el propio teléfono, así que tus datos financieros nunca salen del dispositivo. Construida con Flutter y Dart, fue mi primer proyecto móvil llevado hasta la publicación en tienda.",
+        "en": "Android personal finance app, published on Google Play, that runs 100% offline: no account to create and no server behind it. Every entry is stored on the phone itself, so your financial data never leaves the device. Built with Flutter and Dart, it was my first mobile project taken all the way to a store release."
+      },
+      "highlights": {
+        "es": [
+          "Sin cuenta, sin nube: almacenamiento local en el dispositivo",
+          "Publicada y mantenida en Google Play",
+          "Flutter + Dart, una sola base de código"
+        ],
+        "en": [
+          "No account, no cloud: local on-device storage",
+          "Published and maintained on Google Play",
+          "Flutter + Dart, a single codebase"
+        ]
       },
       "technologies": [
-        { "name": "Dart", "img": "icons/dart.svg", "color": "#0175C2" },
-        { "name": "Flutter", "img": "icons/flutter.svg", "color": "#02569B" }
+        {
+          "name": "Dart",
+          "img": "icons/dart.svg",
+          "color": "#0175C2"
+        },
+        {
+          "name": "Flutter",
+          "img": "icons/flutter.svg",
+          "color": "#02569B"
+        }
       ],
       "button1": {
         "es": "Ver en Play Store",
@@ -182,46 +283,94 @@
       },
       "link": "https://play.google.com/store/apps/details?id=com.fluxo.appfinanzas"
     },
-  {
-    "image": "banners/IncidenciasBanner.jpeg",
-    "title": {
-      "es": "Tickets de Incidencias",
-      "en": "Incident Ticket System"
+    {
+      "image": "banners/IncidenciasBanner.jpeg",
+      "title": {
+        "es": "Tickets de Incidencias",
+        "en": "Incident Ticket System"
+      },
+      "description": {
+        "es": "Sistema web de mesa de ayuda para registrar incidencias y darles seguimiento hasta su cierre. Nace de un problema que viví de primera mano haciendo soporte de TI: sin un registro común, los reportes llegan por mensajes sueltos y se pierden. La interfaz está construida con Next.js y Tailwind CSS, es responsiva y está desplegada en Vercel con el código abierto en GitHub.",
+        "en": "Web help desk system for logging incidents and tracking them through to resolution. It comes from a problem I ran into first-hand doing IT support: without a shared log, reports arrive as scattered messages and get lost. The interface is built with Next.js and Tailwind CSS, is fully responsive, and is deployed on Vercel with the source open on GitHub."
+      },
+      "highlights": {
+        "es": [
+          "Registro y seguimiento de tickets hasta su cierre",
+          "Next.js + Tailwind CSS, responsivo en móvil y escritorio",
+          "Desplegado en Vercel, código abierto en GitHub"
+        ],
+        "en": [
+          "Ticket logging and tracking through to resolution",
+          "Next.js + Tailwind CSS, responsive on mobile and desktop",
+          "Deployed on Vercel, source open on GitHub"
+        ]
+      },
+      "technologies": [
+        {
+          "name": "NextJS",
+          "img": "icons/next.svg",
+          "color": "#000000"
+        },
+        {
+          "name": "JavaScript",
+          "img": "icons/javascript.svg",
+          "color": "#F7DF1E"
+        },
+        {
+          "name": "Tailwind CSS",
+          "img": "icons/tailwindcss.svg",
+          "color": "#38BDF8"
+        }
+      ],
+      "button1": {
+        "es": "Ver proyecto",
+        "en": "View project"
+      },
+      "button2": {
+        "es": "Ver código",
+        "en": "View code"
+      },
+      "link": "https://tickets-incidencias.vercel.app/",
+      "link2": "https://github.com/UreckChan/Tickets-Incidencias"
     },
-    "description": {
-      "es": "Aplicación web en Next.js para la gestión y seguimiento de tickets de incidencias con una interfaz moderna y responsiva.",
-      "en": "Next.js web application for managing and tracking incident tickets through a modern and responsive interface."
-    },
-    "technologies": [
-      { "name": "NextJS", "img": "icons/next.svg", "color": "#FFFFFF" },
-      { "name": "JavaScript", "img": "icons/javascript.svg", "color": "#F7DF1E" },
-      { "name": "Tailwind CSS", "img": "icons/tailwindcss.svg", "color": "#38BDF8" }
-    ],
-    "button1": {
-      "es": "Ver proyecto",
-      "en": "View project"
-    },
-    "button2": {
-      "es": "Ver código",
-      "en": "View code"
-    },
-    "link": "https://tickets-incidencias.vercel.app/",
-    "link2": "https://github.com/UreckChan/Tickets-Incidencias"
-  },
-      {
+    {
       "image": "banners/TheSimpsonsBanner.png",
       "title": {
         "es": "The Simpsons Universe",
         "en": "The Simpsons Universe"
       },
       "description": {
-        "es": "Aplicación web desarrollada con React que consume la API pública con axios de The Simpsons.",
-        "en": "Web application developed with React that consumes the public API with axios of The Simpsons."
+        "es": "Aplicación en React que consume la API pública de The Simpsons con axios y muestra su catálogo de personajes y frases. Lo hice para dominar el ciclo completo de trabajo con una API externa: peticiones asíncronas, manejo de estados de carga y error, y renderizado de listas con componentes reutilizables. Está desplegada en GitHub Pages.",
+        "en": "React application that consumes the public Simpsons API with axios and displays its catalogue of characters and quotes. I built it to get comfortable with the full cycle of working against an external API: async requests, loading and error state handling, and list rendering with reusable components. It's deployed on GitHub Pages."
+      },
+      "highlights": {
+        "es": [
+          "Consumo de API REST externa con axios",
+          "Manejo de estados de carga y error en React",
+          "Componentes reutilizables y estilos con Tailwind CSS"
+        ],
+        "en": [
+          "External REST API consumption with axios",
+          "Loading and error state handling in React",
+          "Reusable components and styling with Tailwind CSS"
+        ]
       },
       "technologies": [
-        { "name": "React", "img": "icons/react.svg", "color": "#61DAFB" },
-        { "name": "JavaScript", "img": "icons/javascript.svg", "color": "#F7DF1E" },
-        { "name": "Tailwind CSS", "img": "icons/tailwindcss.svg", "color": "#38BDF8" }
+        {
+          "name": "React",
+          "img": "icons/react.svg",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "JavaScript",
+          "img": "icons/javascript.svg",
+          "color": "#F7DF1E"
+        },
+        {
+          "name": "Tailwind CSS",
+          "img": "icons/tailwindcss.svg",
+          "color": "#38BDF8"
+        }
       ],
       "button1": {
         "es": "Ver Proyecto",
@@ -234,25 +383,45 @@
       "link": "https://ureckchan.github.io/TheSimpsonsUniverse",
       "link2": "https://github.com/UreckChan/TheSimpsonsUniverse"
     },
-
-
-
-  {
+    {
       "image": "banners/BannerProject1.png",
       "title": {
         "es": "Portafolio Personal",
         "en": "Personal Portfolio"
       },
       "description": {
-        "es": "Sitio web personal para mostrar mi trabajo y habilidades como desarrollador web.",
-        "en": "Personal website to showcase my work and skills as a web developer."
+        "es": "La primera versión de mi portafolio, hecha con React y CSS puro, sin framework de estilos. Escribir a mano el sistema de layout y las animaciones me enseñó más de CSS que cualquier librería, y sigue en línea como referencia de dónde empecé antes de reconstruir el sitio con Astro.",
+        "en": "The first version of my portfolio, built with React and plain CSS, no styling framework. Hand-writing the layout system and the animations taught me more CSS than any library would have, and it's still online as a record of where I started before rebuilding the site with Astro."
+      },
+      "highlights": {
+        "es": [
+          "React con CSS escrito a mano, sin framework de estilos",
+          "Layout responsivo y animaciones propias",
+          "Desplegado en GitHub Pages"
+        ],
+        "en": [
+          "React with hand-written CSS, no styling framework",
+          "Responsive layout and custom animations",
+          "Deployed on GitHub Pages"
+        ]
       },
       "technologies": [
-      {"name": "React", "img": "icons/react.svg", "color": "#61DAFB"},
-      {"name": "JavaScript", "img": "icons/javascript.svg", "color": "#F7DF1E"},
-      {"name": "CSS", "img": "icons/css.svg", "color": "#264DE4"}
-      
-    ],
+        {
+          "name": "React",
+          "img": "icons/react.svg",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "JavaScript",
+          "img": "icons/javascript.svg",
+          "color": "#F7DF1E"
+        },
+        {
+          "name": "CSS",
+          "img": "icons/css.svg",
+          "color": "#264DE4"
+        }
+      ],
       "button1": {
         "es": "Ver Proyecto",
         "en": "View Project"
@@ -263,17 +432,59 @@
       },
       "link": "https://ureckchan.github.io/Portfolio",
       "link2": "https://github.com/UreckChan/Portfolio"
+    },
+    {
+      "image": "banners/PortfolioBanner.jpeg",
+      "title": {
+        "es": "Portafolio Club Penguin",
+        "en": "Club Penguin Portfolio"
+      },
+      "description": {
+        "es": "Este mismo sitio: un portafolio que en vez de ser una página más es una isla jugable estilo Club Penguin. Tiene pingüino animado por sprite sheets que camina a donde le hagas clic, chat, creador de personaje con la paleta clásica de 14 colores, y ventanas con el marco glossy del juego original. Está hecho con Astro, es completamente estático y bilingüe español/inglés en todas sus rutas.",
+        "en": "This very site: a portfolio that, instead of being one more page, is a playable Club Penguin style island. It features a sprite-sheet animated penguin that walks wherever you click, a chat, a character creator with the classic 14-colour palette, and windows with the glossy frame of the original game. Built with Astro, fully static and bilingual Spanish/English across every route."
+      },
+      "highlights": {
+        "es": [
+          "Pingüino animado por sprite sheets, camina a donde hagas clic",
+          "Bilingüe es/en en todas las rutas, con hreflang",
+          "Astro estático: sin JavaScript de framework en el cliente"
+        ],
+        "en": [
+          "Sprite-sheet animated penguin that walks wherever you click",
+          "Bilingual es/en across every route, with hreflang",
+          "Static Astro build: no framework JavaScript shipped to the client"
+        ]
+      },
+      "technologies": [
+        {
+          "name": "Astro",
+          "img": "icons/astro.svg",
+          "color": "#FF5D01"
+        },
+        {
+          "name": "CSS",
+          "img": "icons/css.svg",
+          "color": "#264DE4"
+        },
+        {
+          "name": "Vercel",
+          "img": "icons/vercel.svg",
+          "color": "#000000"
+        }
+      ],
+      "button1": {
+        "es": "Ver Proyecto",
+        "en": "View Project"
+      },
+      "link": "https://www.ureck.dev"
     }
-
   ],
   "footer-title": {
     "es": "Ponte en contacto:",
     "en": "Get in touch:"
   },
-
   "footer-copyright": {
     "es": "Uriel Gomez Becerril. Todos los derechos reservados.",
     "en": "Uriel Gomez Becerril. All rights reserved."
   }
-
 }

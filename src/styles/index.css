@@ -432,6 +432,42 @@ max-width: 56rem;
   font-size: 1rem;
   line-height: 1.5rem;
 }
+/* Matiz de un puesto o estudio: "Becario → Técnico de TI", "Titulado", etc. */
+.timeline-note {
+  font-style: italic;
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+/* Puntos clave de cada proyecto */
+.project-highlights {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0.75rem 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  border-left: 3px solid var(--color-border);
+  border-radius: 0 0.5rem 0.5rem 0;
+  background-color: var(--color-background);
+}
+
+.project-highlights li {
+  position: relative;
+  padding-left: 1.1rem;
+  color: var(--color-description);
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.project-highlights li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--color-text);
+}
+
 .project-buttons {
   display: flex;
   gap: 1rem;
