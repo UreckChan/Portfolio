@@ -392,11 +392,12 @@ max-width: 56rem;
 
 .project-header h3 {
   margin: 0;
-  flex-shrink: 0; /* Evita que el título se encoja */
-  white-space: wrap; /* El título no se rompe en varias líneas */
-  overflow: hidden;    /* Corta el texto que se salga */
-  text-overflow: ellipsis; /* Opcional: agrega "..." si no cabe */
-  min-width: 70%;
+  /* Ocupa el espacio disponible pero cede cuando el título es largo.
+     min-width:0 es imprescindible: sin él un hijo flex no baja de su ancho
+     de contenido y el título se sale de la tarjeta. */
+  flex: 1 1 60%;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .project-tech {
