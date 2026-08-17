@@ -145,105 +145,6 @@
   },
   "projects": [
     {
-      "image": "banners/AlexandriaBanner.png",
-      "title": {
-        "es": "Alexandria - Memoria para Agentes IA",
-        "en": "Alexandria - Memory for AI Agents"
-      },
-      "description": {
-        "es": "Bóveda de conocimiento local para agentes de IA, publicada en npm como @ureck/alexandria. Resuelve un problema concreto: cada sesión con un agente arranca de cero y vuelve a gastar tokens redescubriendo lo que ya sabía. Alexandria guarda decisiones, arquitectura y lecciones en notas enlazadas y se las devuelve al agente cuando hacen falta, con un protocolo de planear, ejecutar, verificar y aprender. Todo vive en tu máquina: sin cuentas, sin API keys y sin telemetría.",
-        "en": "Local knowledge vault for AI agents, published on npm as @ureck/alexandria. It solves a concrete problem: every session with an agent starts from zero and burns tokens rediscovering what it already knew. Alexandria stores decisions, architecture and lessons as linked notes and hands them back to the agent when they're needed, following a plan, execute, verify and learn protocol. Everything lives on your machine: no accounts, no API keys, no telemetry."
-      },
-      "highlights": {
-        "es": [
-          "Búsqueda semántica local en menos de 100 ms",
-          "Grafo de conocimiento enlazado, estilo Obsidian",
-          "Funciona con Claude Code, Cursor, Codex, Gemini CLI y más",
-          "100% local: sin cuentas, sin API keys, sin telemetría"
-        ],
-        "en": [
-          "Local semantic search in under 100 ms",
-          "Linked knowledge graph, Obsidian style",
-          "Works with Claude Code, Cursor, Codex, Gemini CLI and more",
-          "100% local: no accounts, no API keys, no telemetry"
-        ]
-      },
-      "technologies": [
-        {
-          "name": "TypeScript",
-          "img": "icons/typescript.svg",
-          "color": "#3178C6"
-        },
-        {
-          "name": "Node.js",
-          "img": "icons/nodedotjs.svg",
-          "color": "#5FA04E"
-        }
-      ],
-      "button1": {
-        "es": "Ver proyecto",
-        "en": "View project"
-      },
-      "button2": {
-        "es": "Ver código",
-        "en": "View code"
-      },
-      "link": "https://ureckchan.github.io/alexandria/",
-      "link2": "https://github.com/UreckChan/alexandria"
-    },
-    {
-      "image": "banners/CarVersoBanner.png",
-      "title": {
-        "es": "CarVerso - Comparador de Autos",
-        "en": "CarVerso - Car Comparison"
-      },
-      "description": {
-        "es": "Comparador técnico de autos del mercado mexicano, pensado contra la desinformación al comprar coche. Enfrenta hasta tres versiones reales y mide cada una por percentil contra todo el catálogo, así que \"mejor\" es una cifra comprobable y no una puntuación inventada. Cada dato de potencia, rendimiento o emisiones muestra de dónde salió: la ingesta viene de fuentes oficiales como la CONUEE, nunca de portales de venta.",
-        "en": "Technical car comparison tool for the Mexican market, built against the misinformation you face when buying a car. It pits up to three real trim levels against each other and scores every one by percentile across the whole catalogue, so \"better\" is a verifiable figure rather than an invented score. Every power, efficiency or emissions number shows where it came from: data is ingested from official sources such as CONUEE, never from listing sites."
-      },
-      "highlights": {
-        "es": [
-          "Catálogo 2023-2026 con ficha propia por versión",
-          "Percentiles sobre el catálogo completo, sin puntuaciones inventadas",
-          "Cada cifra enlaza a su fuente oficial",
-          "Next.js 16 y React 19 sobre PostgreSQL"
-        ],
-        "en": [
-          "2023-2026 catalogue with its own page per trim level",
-          "Percentiles across the full catalogue, no invented scores",
-          "Every figure links back to its official source",
-          "Next.js 16 and React 19 on PostgreSQL"
-        ]
-      },
-      "technologies": [
-        {
-          "name": "NextJS",
-          "img": "icons/next.svg",
-          "color": "#000000"
-        },
-        {
-          "name": "React",
-          "img": "icons/react.svg",
-          "color": "#61DAFB"
-        },
-        {
-          "name": "PostgreSQL",
-          "img": "icons/postgresql.svg",
-          "color": "#4169E1"
-        },
-        {
-          "name": "Tailwind CSS",
-          "img": "icons/tailwindcss.svg",
-          "color": "#38BDF8"
-        }
-      ],
-      "button1": {
-        "es": "Ver proyecto",
-        "en": "View project"
-      },
-      "link": "https://carverso.ureck.dev"
-    },
-    {
       "image": "banners/FluxoBanner.png",
       "title": {
         "es": "Fluxo - Asistente Financiero",
@@ -477,6 +378,105 @@
         "en": "View Project"
       },
       "link": "https://www.ureck.dev"
+    },
+    {
+      "image": "banners/AlexandriaBanner.png",
+      "title": {
+        "es": "Alexandria - Memoria para Agentes IA",
+        "en": "Alexandria - Memory for AI Agents"
+      },
+      "description": {
+        "es": "Bóveda de conocimiento local para agentes de IA, publicada en npm como @ureck/alexandria. Resuelve un problema concreto: cada sesión con un agente arranca de cero y vuelve a gastar tokens redescubriendo lo que ya sabía. Alexandria guarda decisiones, arquitectura y lecciones en notas enlazadas y se las devuelve al agente cuando hacen falta, con un protocolo de planear, ejecutar, verificar y aprender. Todo vive en tu máquina: sin cuentas, sin API keys y sin telemetría.",
+        "en": "Local knowledge vault for AI agents, published on npm as @ureck/alexandria. It solves a concrete problem: every session with an agent starts from zero and burns tokens rediscovering what it already knew. Alexandria stores decisions, architecture and lessons as linked notes and hands them back to the agent when they're needed, following a plan, execute, verify and learn protocol. Everything lives on your machine: no accounts, no API keys, no telemetry."
+      },
+      "highlights": {
+        "es": [
+          "Búsqueda semántica local en menos de 100 ms",
+          "Grafo de conocimiento enlazado, estilo Obsidian",
+          "Funciona con Claude Code, Cursor, Codex, Gemini CLI y más",
+          "100% local: sin cuentas, sin API keys, sin telemetría"
+        ],
+        "en": [
+          "Local semantic search in under 100 ms",
+          "Linked knowledge graph, Obsidian style",
+          "Works with Claude Code, Cursor, Codex, Gemini CLI and more",
+          "100% local: no accounts, no API keys, no telemetry"
+        ]
+      },
+      "technologies": [
+        {
+          "name": "TypeScript",
+          "img": "icons/typescript.svg",
+          "color": "#3178C6"
+        },
+        {
+          "name": "Node.js",
+          "img": "icons/nodedotjs.svg",
+          "color": "#5FA04E"
+        }
+      ],
+      "button1": {
+        "es": "Ver proyecto",
+        "en": "View project"
+      },
+      "button2": {
+        "es": "Ver código",
+        "en": "View code"
+      },
+      "link": "https://ureckchan.github.io/alexandria/",
+      "link2": "https://github.com/UreckChan/alexandria"
+    },
+    {
+      "image": "banners/CarVersoBanner.png",
+      "title": {
+        "es": "CarVerso - Comparador de Autos",
+        "en": "CarVerso - Car Comparison"
+      },
+      "description": {
+        "es": "Comparador técnico de autos del mercado mexicano, pensado contra la desinformación al comprar coche. Enfrenta hasta tres versiones reales y mide cada una por percentil contra todo el catálogo, así que \"mejor\" es una cifra comprobable y no una puntuación inventada. Cada dato de potencia, rendimiento o emisiones muestra de dónde salió: la ingesta viene de fuentes oficiales como la CONUEE, nunca de portales de venta.",
+        "en": "Technical car comparison tool for the Mexican market, built against the misinformation you face when buying a car. It pits up to three real trim levels against each other and scores every one by percentile across the whole catalogue, so \"better\" is a verifiable figure rather than an invented score. Every power, efficiency or emissions number shows where it came from: data is ingested from official sources such as CONUEE, never from listing sites."
+      },
+      "highlights": {
+        "es": [
+          "Catálogo 2023-2026 con ficha propia por versión",
+          "Percentiles sobre el catálogo completo, sin puntuaciones inventadas",
+          "Cada cifra enlaza a su fuente oficial",
+          "Next.js 16 y React 19 sobre PostgreSQL"
+        ],
+        "en": [
+          "2023-2026 catalogue with its own page per trim level",
+          "Percentiles across the full catalogue, no invented scores",
+          "Every figure links back to its official source",
+          "Next.js 16 and React 19 on PostgreSQL"
+        ]
+      },
+      "technologies": [
+        {
+          "name": "NextJS",
+          "img": "icons/next.svg",
+          "color": "#000000"
+        },
+        {
+          "name": "React",
+          "img": "icons/react.svg",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "PostgreSQL",
+          "img": "icons/postgresql.svg",
+          "color": "#4169E1"
+        },
+        {
+          "name": "Tailwind CSS",
+          "img": "icons/tailwindcss.svg",
+          "color": "#38BDF8"
+        }
+      ],
+      "button1": {
+        "es": "Ver proyecto",
+        "en": "View project"
+      },
+      "link": "https://carverso.ureck.dev"
     }
   ],
   "footer-title": {
